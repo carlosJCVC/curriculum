@@ -1,0 +1,288 @@
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage{ragged2e}
+\usepackage{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.15\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{Carlos Veizaga CV}
+\author{\LaTeX{} Ninja}
+\date{June 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{J. Carlos}{Veizaga Cabrera}{Full Stack developer}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{2cm}
+\columnratio{0.22}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+\footnotesize
+{\setasidefontcolour
+    \roundpic{avatar.png}
+\justifying
+
+\begin{center}
+\bg{cvgreen}{white}{About me}\\[0.5em]
+\end{center}
+
+I’m an ambitious and perfectionist person, with clear goals in my life and a big dream to achieve: leave my mark on this world. I love technology and its capability to make people life easier.
+\begin{center}
+    “Never give Up”
+\end{center}
+
+% \infobubble{\faAt}{cvgreen}{white}{carlosveizaga.jcvc@gmail.com}
+\infobubble{\faTwitter}{cvgreen}{white}{@carlosveizagajc}
+\newline \infobubble{\faFacebook}{cvgreen}{white}{Juan Carlos Veizaga}
+\newline \infobubble{\faGithub}{cvgreen}{white}{github.com/carlosJCVC}
+
+\bigskip
+
+\begin{center}
+\bg{cvgreen}{white}{personal Information} \\[0.5em]
+\end{center}
+
+\textsc{J. Carlos Veizaga Cabrera}
+\newline \textsc{nationality: Bolivian} $\cdot$ \textsc{1994}
+\newline \textsc{carlosveizaga.jcvc@gmail.com}
+
+\bigskip
+
+\begin{center}
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+\end{center}
+
+Developer ~•~ Full Stack Developer ~•~ Back End Developer ~•~ Front End Developer
+
+\bigskip
+
+\begin{center}
+\bg{cvgreen}{white}{Strengths} \\[0.5em]
+\end{center}
+
+EYE FOR DETAIL ~•~ QUICK LEARNING ABILITY ~•~ CREATIVE ~•~ HONEST ~•~ COMMUNICATION ~•~ TEAMWORK ~•~ PROACTIVITY ~•~ LEADERSHIP ~•~ ADAPTABILITY
+
+\bigskip
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Short Resume}
+
+\begin{tabular}{r| p{0.55\textwidth} c}
+    \cvevent
+        {2023--Ongoing}
+        {Full Stack Developer}
+        {Freelancer}{Cbba, Bolivia \color{cvred}}
+        {Innovative solutions oriented to our society context and using the most popular frameworks and tools in the market. Apply best practices, clean code and principles SOLID in projects. Always looking to improve, every day.}
+        \\
+    \cvevent
+        {2016--2017}
+        {Full Stack Developer At NINEHUB}
+        {Full Stack Developer}{Cbba, Bolivia \color{cvred}}
+        {
+            Ninehub is a software development, IT training, consulting, documentation, publishing, provision of programs, applications, maintenance, and support services.
+        }
+        \\
+    \cvevent
+        {2016--2017}
+        {Backend Developer At ACEDEVEL NETWORKS}
+        {Staff Developer}{Cbba, Bolivia \color{cvred}}
+        {
+            Acedevel is a global software company that provides fully responsive/dynamic web design and development tools and components for a range of developer applications across all platforms. Android IOS applications.
+        }
+\end{tabular}
+\vspace{2em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Degrees}
+\begin{tabular}{r p{0.8\textwidth} c}
+    \cvdegree
+        {2021}
+        {Systems Engineering}
+        {Graduate}{UMSS, CBBA, Bolivia \color{headerblue}}{} \\
+    \cvdegree{2021}{Diploma in Information Technology for physical and virtual environments}{Certified}{UMSS, CBBA, Bolivia \color{headerblue}}{} \\
+    \cvdegree{2023}{Diploma in Competency-Based Higher Education}{Certified}{UMSS, CBBA, Bolivia \color{headerblue}}{}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programming}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.58}{0.5em}{cvcgreen}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.45}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{JavaScript} & \barrule{0.58}{0.5em}{cvcgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{PHP} & \barrule{0.58}{0.58em}{cvcgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{Java} & \barrule{0.45}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{C/C++} & \barrule{0.25}{0.5em}{cvred} \\
+     \bg{skilllabelcolour}{iconcolour}{Python} & \barrule{0.25}{0.5em}{cvred} \\
+     \bg{skilllabelcolour}{iconcolour}{Dart} & \barrule{0.40}{0.5em}{cvgreen} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Frameworks, libraries, and tools}
+\begin{minipage}[t]{0.35\textwidth}
+    \begin{tabular}{r p{0.8\textwidth} c}
+        \begin{tabular}{r @{\hspace{0.5em}}l}
+            \bg{skilllabelcolour}{iconcolour}{Angular} &  \barrule{0.5}{0.5em}{cvcgreen}\\
+            \bg{skilllabelcolour}{iconcolour}{React} & \barrule{0.25}{0.5em}{cvcyellow} \\
+            \bg{skilllabelcolour}{iconcolour}{Vue} & \barrule{0.4}{0.5em}{cvgreen} \\
+            \bg{skilllabelcolour}{iconcolour}{Redux} & \barrule{0.25}{0.5em}{cvcyellow} \\
+            \bg{skilllabelcolour}{iconcolour}{GraphQL} & \barrule{0.35}{0.5em}{cvgreen} \\
+            \bg{skilllabelcolour}{iconcolour}{Bootstrap} & \barrule{0.5}{0.5em}{cvcgreen} \\
+            \bg{skilllabelcolour}{iconcolour}{Nodejs} & \barrule{0.4}{0.5em}{cvgreen} \\
+            \bg{skilllabelcolour}{iconcolour}{Express} & \barrule{0.5}{0.5em}{cvcgreen} \\
+            \bg{skilllabelcolour}{iconcolour}{Codeigniter} & \barrule{0.5}{0.5em}{cvcgreen} \\
+            \bg{skilllabelcolour}{iconcolour}{Wordpress} & \barrule{0.4}{0.5em}{cvgreen} \\
+            \bg{skilllabelcolour}{iconcolour}{Magento} & \barrule{0.25}{0.5em}{cvcyellow} \\
+            \bg{skilllabelcolour}{iconcolour}{Drupal} & \barrule{0.4}{0.5em}{cvgreen} \\
+        \end{tabular}    
+    \end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.35\textwidth}
+\begin{tabular}{r p{0.8\textwidth} c}
+    \begin{tabular}{r @{\hspace{0.5em}}l}
+        \bg{skilllabelcolour}{iconcolour}{Laravel} & \barrule{0.5}{0.5em}{cvcgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{Spring} & \barrule{0.3}{0.5em}{cvgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{MongoDB} & \barrule{0.3}{0.5em}{cvgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{MySQL} & \barrule{0.5}{0.5em}{cvcgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{PostgreSQL} & \barrule{0.4}{0.5em}{cvgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{Scrum} & \barrule{0.4}{0.5em}{cvgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{Docker} & \barrule{0.40}{0.5em}{cvgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{Flutter} & \barrule{0.3}{0.5em}{cvgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{Nestjs} & \barrule{0.4}{0.5em}{cvgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{JQuery} & \barrule{0.5}{0.5em}{cvcgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{Linux} & \barrule{0.5}{0.5em}{cvcgreen} \\
+        \bg{skilllabelcolour}{iconcolour}{VSCode} & \barrule{0.5}{0.5em}{cvcgreen} \\
+    \end{tabular}
+\end{tabular}
+\end{minipage}\hfill
+
+
+\section*{Curriculum}
+\begin{tabular}{r| p{0.5\textwidth} c}
+     \cvevent
+        {2023--Ongoing}
+        {Full Stack Developer}
+        {Freelancer}{Cbba, Bolivia \color{cvred}}
+        {Innovative solutions oriented to our society context and using the most popular frameworks and tools in the market. Apply best practices, clean code and principles SOLID in projects. Always looking to improve, every day.}
+        \\
+    \cvevent
+        {2016--2017}
+        {Full Stack Developer At NINEHUB}
+        {Full Stack Developer}{Cbba, Bolivia \color{cvred}}
+        {
+            Ninehub is a software development, IT training, consulting, documentation, publishing, provision of programs, applications, maintenance, and support services.
+            \begin{itemize}
+                \item Created and maintained 10+ ERP web applications for the same client using Laravel framework.
+                \item I created new features and made maintenance of ERP systems built with PHP. I made ERP systems database query performance improvement.
+                \item Created rest API.
+                \item Integration of ERP systems with payment methods and consuming API’s.
+            \end{itemize}
+        }
+        \\
+    \cvevent
+        {2016--2017}
+        {Backend Developer At ACEDEVEL NETWORKS}
+        {Staff Developer}{Cbba, Bolivia \color{cvred}}
+        {
+            Acedevel is a global software company that provides fully responsive/dynamic web design and development tools and components for a range of developer applications across all platforms. Android IOS applications.
+            \begin{itemize}
+                \item I worked with obtaining data from other sites (scrapping) \href{https://www.usracing.com/news/}{usracing} and maintenance of the same ,then, i worked on maintenance and cleaning of an attack that suffered this site \href{https://www.jayswideshoes.com/}{jayswideshoes}, then I worked on a custom WordPress plugin.
+                \item I worked in a system for the management of contents(CMS) and queries about electricity debts, the project was for the most important electricity company in Cochabamba (Bolivia).
+                \item I developed a custom Drupal module for the main electricity company.
+                \item I worked in an ERP using Laravel framework, the project was created with a team and applying Scrum to work.
+            \end{itemize}
+        }
+        \\
+        \cvevent
+        {2016--2017}
+        {Backend Developer At ACEDEVEL NETWORKS}
+        {Junier Developer}{Cbba, Bolivia \color{cvred}}
+        {
+            Acedevel is a global software company that provides fully responsive/dynamic web design and development tools and components for a range of developer applications across all platforms. Android IOS applications.
+            \begin{itemize}
+                \item I worked with obtaining data from other sites (scrapping) and maintenance of the same.
+                \item I developed a custom WordPress module.
+                \item I have created and configured a complete site with WordPress for the professional soccer league in Bolivia.
+            \end{itemize}
+        }
+\end{tabular}
+\vspace{1em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Certificates \& Grants}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.60\textwidth}}
+    UMSS 2021 & Diploma in Information Technology for physical and virtual environments \\
+    UMSS 2023 & Diploma in Competency-Based Higher Education \\
+    UDEMY 2022 & SOLID Principles and Clean Code \\
+    UDEMY 2023 & Flutter: Your complete development guide for IOS and Android. \\ 
+    UDEMY 2023 & Flutter: Professional designs and animations.
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Languages}
+\begin{tabular}{l || ll}
+    \textbf{Spanish} & Spa & {\phantom{x}\footnotesize mother tongue} \\
+    \textbf{English} & En & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{2}{\tiny} \\
+\end{tabular}
+\bigskip
+
+\end{minipage}
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small \icon{\faUser}{cvgreen}{} Juan Carlos Veizaga Cabrera \icon{\faGithub}{cvgreen}{} github.com/carlosJCVC \newline\icon{\faMapMarker}{cvgreen}{} 9 de abril Avenue, Cercado, Cochabamba, Bolivia \icon{\faPhone}{cvgreen}{}\icon{\faWhatsapp}{cvgreen}{} +591 60750329 \newline\icon{\faAt}{cvgreen}{} \protect\url{carlosveizaga.jcvc@gmail.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
